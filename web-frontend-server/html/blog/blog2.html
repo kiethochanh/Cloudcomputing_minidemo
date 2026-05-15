@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đam mê game & hành trình đến với lập trình</title>
+
+    <!-- Font + Icon -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #ffffff;
+            color: #333;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #000428, #004e92);
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            color: #fff;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .section-title {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .games {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .game-card {
+            background: #f1f2f6;
+            padding: 15px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: 0.3s;
+        }
+
+        .game-card:hover {
+            transform: scale(1.02);
+            background: #dfe4ea;
+        }
+
+        .game-left {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .game-left i {
+            font-size: 24px;
+            color: #2f3542;
+        }
+
+        .game-card a {
+            text-decoration: none;
+            color: #0984e3;
+            font-weight: 500;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #e74c3c;
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background: #c0392b;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>🎮 Đam mê game & hành trình đến với lập trình</h1>
+    </div>
+
+    <div class="content">
+
+        <p>
+            Từ nhỏ, tôi đã rất thích chơi game. Game không chỉ giúp giải trí mà còn giúp tôi
+            rèn luyện tư duy, phản xạ và khả năng giải quyết vấn đề.
+        </p>
+
+        <p>
+            Ban đầu, tôi chỉ đơn giản là chơi game để vui. Nhưng càng chơi, tôi càng tò mò:
+            "Game được tạo ra như thế nào?", "Ai là người làm ra những hệ thống phức tạp này?"
+        </p>
+
+        <p>
+            Chính những câu hỏi đó đã đưa tôi đến với lập trình và công nghệ.
+        </p>
+
+        <h3 class="section-title">🔥 Những tựa game yêu thích</h3>
+
+        <div class="games">
+
+            <div class="game-card">
+                <div class="game-left">
+                    <i class="fas fa-dragon"></i>
+                    <span>Liên Minh Huyền Thoại (League of Legends)</span>
+                </div>
+                <a href="https://www.leagueoflegends.com/" target="_blank">Xem</a>
+            </div>
+
+            <div class="game-card">
+                <div class="game-left">
+                    <i class="fas fa-crosshairs"></i>
+                    <span>CS2 (Counter-Strike 2)</span>
+                </div>
+                <a href="https://store.steampowered.com/app/730/CounterStrike_2/" target="_blank">Xem</a>
+            </div>
+
+            <div class="game-card">
+                <div class="game-left">
+                    <i class="fas fa-cube"></i>
+                    <span>Minecraft</span>
+                </div>
+                <a href="https://www.minecraft.net/" target="_blank">Xem</a>
+            </div>
+
+        </div>
+
+        <h3 class="section-title">💡 Từ game đến code</h3>
+
+        <p>
+            Nhờ chơi game, tôi bắt đầu tìm hiểu về cách hoạt động của server, mạng và hệ thống backend.
+            Tôi nhận ra rằng đằng sau mỗi trận đấu là cả một hệ thống phức tạp xử lý dữ liệu realtime.
+        </p>
+
+        <p>
+            Từ đó, tôi bắt đầu học lập trình, Docker, hệ thống mạng và xây dựng các project như MyMiniCloud.
+            Điều này giúp tôi hiểu rõ hơn cách các dịch vụ hoạt động giống như trong game.
+        </p>
+
+        <p>
+            Với tôi, game không chỉ là giải trí, mà còn là nguồn cảm hứng để bước vào thế giới công nghệ 🚀
+        </p>
+
+    </div>
+
+    <div class="footer">
+        <a href="../" class="btn">← Quay về trang chủ</a>
+    </div>
+
+</div>
+
+</body>
+</html>

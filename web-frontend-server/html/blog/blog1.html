@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Giới thiệu bản thân</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #3498db, #6dd5fa);
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+
+        .header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 10px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .section-title {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .info {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .info li {
+            background: #f1f2f6;
+            margin: 8px 0;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .skills {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .skill {
+            background: #3498db;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .btn {
+            text-decoration: none;
+            padding: 10px 20px;
+            background: #e74c3c;
+            color: white;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #c0392b;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <img src="https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/anh_bia_hinh_nen_shin_6b3bdd6a79.png">
+        <h1>Xin chào, tôi là Sinh viên MyMiniCloud </h1>
+    </div>
+
+    <div class="content">
+
+        <p>
+            Tôi hiện đang học ngành Công nghệ Kỹ thuật Môi trường,
+            nhưng có niềm đam mê mạnh mẽ với công nghệ, đặc biệt là hệ thống Cloud và DevOps.
+        </p>
+
+        <p>
+            Tôi đang thực hiện dự án MyMiniCloud – mô phỏng một hệ thống cloud thu nhỏ
+            với nhiều server như Web, Application, Database, DNS và Monitoring.
+        </p>
+
+        <h3 class="section-title">📌 Thông tin cá nhân</h3>
+        <ul class="info">
+            <li>🎓 Ngành: Công nghệ Kỹ thuật Môi trường</li>
+            <li>💻 Sở thích: Lập trình, Docker, Cloud</li>
+            <li>🎯 Mục tiêu: Trở thành DevOps Engineer</li>
+        </ul>
+
+        <h3 class="section-title">⚡ Kỹ năng</h3>
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">Docker</div>
+            <div class="skill">Linux</div>
+            <div class="skill">Networking</div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <a href="../" class="btn">← Quay về trang chủ</a>
+    </div>
+
+</div>
+
+</body>
+</html>
